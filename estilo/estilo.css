@@ -1,0 +1,206 @@
+.alinhar-centro{
+    text-align: center;
+}
+
+.imagem-redonda{
+    border-radius: 1000px;
+}
+
+.postagens{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 3rem;
+    text-align: justify;
+    background-color: rgba(91, 89, 88, 0.699);
+    color: white;
+}
+
+
+
+.titulo-do-blog{
+    text-align: center;
+    color: blue;
+}
+
+.voltar-ao-inicio{
+    text-align: right;
+    margin-right: 80px;
+    font-size: 45px;
+}
+
+body {
+background-image: url(../imagens/mar.jpg);
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.slider {
+  display: block;
+  height: 293px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.slider li {
+  list-style: none;
+  position: absolute;
+}
+
+.slider img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+}
+
+.slider input {
+  display: none;
+}
+
+.slider label {
+  background-color: #000;
+  bottom: 10px;
+  cursor: pointer;
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+  left: 10px;
+}
+
+.slider li:nth-child(2) label {
+  left: 40px;
+}
+
+.slider li:nth-child(3) label {
+  left: 70px;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.slider img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+a:hover {
+  color: brown;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color:black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.natureza {
+  float:left;
+  width: 200px;
+  height: 400px;
+  padding: 10px;
+  margin: 3px;
+}
+
+.mar {
+float: right;
+width: 200px;
+height: 400px;
+padding: 10px;
+margin: 3px;
+}
+
+.ofertas{
+  background-color: rgba(240, 255, 255, 0.269);
+  font-size: 23px;
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 15px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.area-produto{
+  display: flex;
+}
+
+.menu{
+  font-size: 1.5rem;
+}
+
+.caixa{
+  height: 350px;
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.titulo-ofertas{
+  display: block;
+}
+
+.imagem-produto{
+  height: 280px;
+  width: 260px;
+}
+
+.titulo-produto{
+  font-size: 14px;
+  color: #000;
+}
+
+.descricao-produto{
+  font-size: 16px;
+  font-weight: 900;
+  color: #000;
+  padding-bottom: 15px;
+}
+
+.produto-caixa{
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 3rem;
+  text-align: justify;
+  background-color: rgba(240, 255, 255, 0.72);
+  color: black;
+  display: flex;
+}
+
+.produto-imagem{
+  width: 40%;
+}
+
+.produto-info{
+  width: 60%;
+}
+
+th, td{
+  padding: 15px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
